@@ -36,6 +36,8 @@ nibbleadd nibbleadd_u0(
 );
 
 initial begin
+    A = 4'b0000; //Initialise A
+    B = 4'b0000; //Initialise B
     
     ctrl = 0; //Set ctrl to 0
     // Generate random values for A and B 5 times
